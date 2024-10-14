@@ -5,7 +5,7 @@ Este repositorio contiene scripts y datos necesarios para realizar la construcci
 ## Estructura del Proyecto
 
 - `code/`: Carpeta que contiene los scripts de código para procesar los datos, calcular las medidas y generar los mapas.
-  - `data_preprocessing`: Script que se encarga de la limpieza y preparación de los datos.
+  - `data_preprocessing.py`: Script en Python que se encarga de la limpieza y preparación de los datos.
   - `medidas.py`: Script en Python para el cálculo de las medidas de pobreza.
   - `mapa.R`: Script en R que genera el mapa de calor de la medida FGT1 por Estado en México.
   

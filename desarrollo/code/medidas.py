@@ -103,3 +103,4 @@ data_combined['ubica_geo_mod'] = data_combined['ubica_geo_mod'].map(mapeo_ubicac
 fgt1_por_ubicacion_actualizada = data_combined.groupby('ubica_geo_mod').apply(calcular_fgt1_por_ubicacion)
 print(fgt1_por_ubicacion_actualizada)
 #fgt1_por_ubicacion_actualizada.to_csv('/Users/mauga/Desktop/desarrollo/intermediates/fgt1_por_ubicacion_actualizada.csv')
+#Por temas de acentos y simplicidad, el archivo fgt1_por_ubicacion_actualizada fue modificado a mano y convertido a xlsx. (To be done in this script...)
